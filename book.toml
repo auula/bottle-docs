@@ -1,0 +1,21 @@
+[book]
+description = "Bottle Storage Engine Use Documentation."
+authors = ["Leon Ding <ding@ibyte.me>"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Bottle Use Documentation"
+
+[build]
+build-dir = "docs"
+
+[output.html]
+default-theme = "Ayu"
+preferred-dark-theme = "navy"
+curly-quotes = true
+mathjax-support = false
+copy-fonts = true
+no-section-label = false
+git-repository-url = "https://github.com/auula/bottle"
+git-repository-icon = "fa-github"
+site-url = "/docs/"
